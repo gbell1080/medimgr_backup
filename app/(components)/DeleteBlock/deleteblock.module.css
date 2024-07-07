@@ -1,0 +1,13 @@
+.delete {
+  padding: 5px;
+  color: red;
+  cursor: pointer;
+  font-size: 3rem;
+  margin: 0px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.delete:hover {
+  color: rgb(211, 165, 165);
+}

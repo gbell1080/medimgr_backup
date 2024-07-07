@@ -1,0 +1,22 @@
+.status {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: slategray;
+  border-radius: 5px;
+  padding: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.green {
+  background-color: #74cc79;
+}
+
+.amber {
+  background-color: #f7b731;
+}
+
+.red {
+  background-color: #e25d76;
+}

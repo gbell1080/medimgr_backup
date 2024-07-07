@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: lightgrey;
+  min-height: 100vh;
+}
+
+.pageContainer > div {
+  margin: 1rem;
+}
+
+.icon {
+  color: rgb(224, 125, 26);
+  width: 24px;
+  height: 24px;
+  font-size: 3rem;
+  margin: 0 0.5rem;
+}
+
+.icon-dim {
+  color: rgb(185, 185, 185);
+  width: 24px;
+  height: 24px;
+  font-size: 3rem;
+  margin: 0 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: rgb(224, 125, 26);
+}
+
+form {
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  margin-top: 1rem;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+
+.btn-orange {
+  background-color: rgb(224, 125, 26);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
+
+.side-padding {
+  padding: 0;
+}
+
+.userLinkContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+  .side-padding {
+    padding: 0 4rem;
+  }
+}

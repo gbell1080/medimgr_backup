@@ -1,0 +1,40 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 60px;
+}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin-right: 1rem;
+  font-weight: 700;
+}
+
+.dropDownContainer {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .navContainer {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+  }
+  /* .navContainer::-webkit-scrollbar {
+    display: none;
+  } */
+}

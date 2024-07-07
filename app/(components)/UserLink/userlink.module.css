@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid rgb(224, 125, 26);
+  text-decoration: none;
+  min-width: 50vw;
+}
+
+.container:last-child {
+  border-bottom: 2px solid rgb(224, 125, 26);
+}
+
+.container:hover {
+  background-color: rgb(201, 201, 201);
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: rgb(224, 125, 26);
+}
+
+.text {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
